@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas de Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pokemon-card">
+            <img id="pokemon-image" alt="Pokemon Image">
+        </div>
+        <button id="fetch-pokemon" class="btn">Buscar</button>
+    </div>
+
+    <div class="details">
+        <div class="detail">
+            <img src="https://cdn-icons-png.freepik.com/256/419/419467.png" alt="Pokeball">
+            <p><span class="label">Name: <span id="pokemon-name"></span></span></p>
+        </div>
+        <div class="detail">
+            <img src="https://cdn-icons-png.freepik.com/256/419/419467.png" alt="Pokeball">
+            <p><span class="label">Type:</span> <span id="pokemon-type"></span></p>
+        </div>
+        <div class="detail">
+            <img src="https://cdn-icons-png.freepik.com/256/419/419467.png" alt="Pokeball">
+            <p><span class="label">Stats:</span> HP: <span id="pokemon-hp"></span></p>
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="detail">
+            <img src="https://cdn-icons-png.freepik.com/256/419/419467.png" alt="Pokeball">
+            <p><span class="label">Ability:</span> <span id="pokemon-ability-name"></span></p>
+            <p><span class="label">Description:</span><span id="pokemon-ability-description"></span></p>
+        </div>
+        <div class="detail">
+            <img src="https://cdn-icons-png.freepik.com/256/419/419467.png" alt="Pokeball">
+            <p><span class="label">Attack:</span> <span id="pokemon-attack-name"></span></p>
+            <p><span class="label">Cost:</span> <span id="pokemon-attack-cost"></span></p>
+            <p><span class="label">Damage: </span> <span id="pokemon-attack-damage"></span></p>
+            <p><span class="label">Description:</span> <span id="pokemon-attack-description"></span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
